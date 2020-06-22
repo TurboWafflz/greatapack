@@ -1,0 +1,19 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+		"0",
+        "|",
+        "|"
+    ],
+    "key": {
+        "|": {
+            "item": "minecraft:stick"
+        }, "0": {
+            "item": "minecraft:sand"
+        }
+    },
+    "result": {
+        "item": "minecraft:wooden_pickaxe",
+        "count": 1
+    }
+}

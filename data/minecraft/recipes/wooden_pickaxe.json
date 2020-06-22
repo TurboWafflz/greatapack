@@ -1,0 +1,19 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+		"000",
+        "0| ",
+        "0|0"
+    ],
+    "key": {
+        "|": {
+            "item": "minecraft:stick"
+        }, "0": {
+            "item": "minecraft:spruce_planks"
+        }
+    },
+    "result": {
+        "item": "minecraft:air",
+        "count": 1
+    }
+}
