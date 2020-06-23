@@ -26,3 +26,6 @@ execute as @e[type=item] at @s run tag @s add itemToSilver
 execute as @e[type=item, nbt={Age:1s}] at @s run summon silverfish ~ ~ ~
 execute as @e[type=parrot] run effect give @s minecraft:fire_resistance 1 1 true
 execute as @e[type=parrot] run data merge entity @s {Fire:19}
+execute as @e[type=item, nbt={Item:{id:"minecraft:carrot"}}] at @s run tag @s add carrot
+execute as @e[tag=carrot] at @s run summon minecraft:item ~ ~ ~ {Item:{id:"minecraft:beetroot", Count:1}}
+execute as @e[tag=carrot] at @s run kill @s
