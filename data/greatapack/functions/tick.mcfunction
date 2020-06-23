@@ -23,7 +23,6 @@ execute as @e[type=snowball] at @s unless block ~ ~-1 ~ minecraft:air run tag @s
 execute as @e[tag=snowball] at @s run summon creeper ~ ~ ~ {Fuse:0}
 execute as @e[tag=snowball] at @s run kill @s
 execute as @e[type=item] at @s run tag @s add itemToSilver
-execute as @e[tag=itemToSilver] at @s if entity @e[type=silverfish, distance=..10] run tag @s remove itemToSilver
-execute as @e[tag=itemToSilver] at @s run summon minecraft:silverfish ~ ~ ~
+execute as @e[type=item, nbt={Age:1s}] at @s run summon silverfish ~ ~ ~
 execute as @e[type=parrot] run effect give @s minecraft:fire_resistance 1 1 true
 execute as @e[type=parrot] run data merge entity @s {Fire:19}
