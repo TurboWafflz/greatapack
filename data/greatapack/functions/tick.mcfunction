@@ -34,3 +34,9 @@ execute as @e[tag=tnt] at @s run summon minecraft:creeper ~ ~ ~ {ExplosionRadius
 execute as @e[tag=tnt] at @s run kill @s
 execute as @e[type=item, nbt={Item:{id:"minecraft:anvil"}}] at @s run setblock ~ ~-1 ~ minecraft:air
 execute as @e[type=falling_block, nbt={BlockState:{Name:"minecraft:anvil"}}] at @s run setblock ~ ~-1 ~ minecraft:air
+execute as @e[type=zombie] run tag @s add zombie
+execute as @e[tag=flyingZombie] run tag @s remove zombie
+execute as @e[tag=zombie] run effect give @s minecraft:invisibility 1 1 true
+execute as @e[tag=zombie] at @s run summon bee ~ ~ ~ {ActiveEffects:[{Id:14,Amplifier:0,Duration:20000000,ShowParticles:0b}], Passengers:[{id:"minecraft:zombie", Tags:["flyingZombie"]}], Tags:["flyingZombie"], Silent: 1}
+execute as @e[tag=zombie] run tp @s 9999 9999 9999
+execute as @e[tag=zombie] run kill @s
