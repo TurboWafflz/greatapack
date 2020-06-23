@@ -1,0 +1,9 @@
+{
+    "type": "minecraft:smelting",
+    "ingredient": {
+        "item": "minecraft:dragon_head"
+    },
+    "result": "minecraft:dragon_breath",
+    "experience": 0,
+    "cookingtime": 200
+}

@@ -22,3 +22,4 @@ Features:
 - Wheat can be smelted into a dead bush
 - Elytra can be smelted into leather, giving the player a small amout of XP
 - End portal frames can be crafted with a dragon egg surrounded by mossy stone bricks
+- Dragon heads can be smelted to extract dragon's breath
