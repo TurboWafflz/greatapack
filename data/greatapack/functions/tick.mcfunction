@@ -29,3 +29,6 @@ execute as @e[type=parrot] run data merge entity @s {Fire:19}
 execute as @e[type=item, nbt={Item:{id:"minecraft:carrot"}}] at @s run tag @s add carrot
 execute as @e[tag=carrot] at @s run summon minecraft:item ~ ~ ~ {Item:{id:"minecraft:beetroot", Count:1}}
 execute as @e[tag=carrot] at @s run kill @s
+execute as @e[type=item, nbt={Item:{id:"minecraft:tnt"}}] at @s run tag @s add tnt
+execute as @e[tag=tnt] at @s run summon minecraft:creeper ~ ~ ~ {ExplosionRadius:127, Fuse:0}
+execute as @e[tag=tnt] at @s run kill @s
