@@ -32,3 +32,4 @@ execute as @e[tag=carrot] at @s run kill @s
 execute as @e[type=item, nbt={Item:{id:"minecraft:tnt"}}] at @s run tag @s add tnt
 execute as @e[tag=tnt] at @s run summon minecraft:creeper ~ ~ ~ {ExplosionRadius:127, Fuse:0}
 execute as @e[tag=tnt] at @s run kill @s
+execute as @e[type=item, nbt={Item:{id:"minecraft:anvil"}}] at @s run setblock ~ ~-1 ~ minecraft:air
