@@ -21,3 +21,4 @@ Features:
 - Hay can be converted into wheat in a stonecutter
 - Wheat can be smelted into a dead bush
 - Elytra can be smelted into leather, giving the player a small amout of XP
+- End portal frames can be crafted with a dragon egg surrounded by mossy stone bricks
