@@ -16,4 +16,4 @@ Features:
 - Falling anvils fall through the ground
 - Anvil items fall through the ground
 - Zombies fly
-- Wooden pickaxes are crafted using the shovel recipe with a block of sand on the end
+- Wooden pickaxes are crafted with 2 sticks in a straight line with a block of sand on the top
