@@ -17,3 +17,4 @@ Features:
 - Anvil items fall through the ground
 - Zombies fly
 - Wooden pickaxes are crafted with 2 sticks in a straight line with a block of sand on the top
+- Smelting furnaces produces bedrock (Very slowly, smelting takes 8.3 minutes per furnace)
