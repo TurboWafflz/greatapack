@@ -1,0 +1,9 @@
+{
+    "type": "minecraft:smelting",
+    "ingredient": {
+        "item": "minecraft:elytra"
+    },
+    "result": "minecraft:leather",
+    "experience": 200,
+    "cookingtime": 200
+}

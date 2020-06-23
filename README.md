@@ -20,3 +20,4 @@ Features:
 - Smelting furnaces produces bedrock (Very slowly, smelting takes 8.3 minutes per furnace)
 - Hay can be converted into wheat in a stonecutter
 - Wheat can be smelted into a dead bush
+- Elytra can be smelted into leather, giving the player a small amout of XP
