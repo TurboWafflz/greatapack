@@ -20,7 +20,7 @@ Features:
 - Smelting furnaces produces bedrock (Very slowly, smelting takes 8.3 minutes per furnace)
 - Hay can be converted into wheat in a stonecutter
 - Wheat can be smelted into a dead bush
-- Elytra can be smelted into leather, giving the player a small amout of XP
+- Elytra can be smelted into leather, giving the player a small amount of XP
 - End portal frames can be crafted with a dragon egg surrounded by mossy stone bricks
 - Dragon heads can be smelted to extract dragon's breath
 - Coal can be smelted for 1.3 hours to produce diamond
