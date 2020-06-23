@@ -1,0 +1,9 @@
+{
+    "type": "minecraft:smelting",
+    "ingredient": {
+        "item": "minecraft:wheat"
+    },
+    "result": "minecraft:dead_bush",
+    "experience": 0,
+    "cookingtime": 2000
+}

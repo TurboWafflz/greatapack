@@ -19,3 +19,4 @@ Features:
 - Wooden pickaxes are crafted with 2 sticks in a straight line with a block of sand on the top
 - Smelting furnaces produces bedrock (Very slowly, smelting takes 8.3 minutes per furnace)
 - Hay can be converted into wheat in a stonecutter
+- Wheat can be smelted into a dead bush
