@@ -1,3 +1,3 @@
 say Greatapack starting...
 say Scheduling functions
-schedule function greatapack:tp 5s
+#schedule function greatapack:tp 5s

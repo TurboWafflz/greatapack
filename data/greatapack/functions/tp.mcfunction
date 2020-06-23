@@ -1,2 +1,2 @@
-#tp @r @r
-#say TPING
+tp @r @r
+say TPING
